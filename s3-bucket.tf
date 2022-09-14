@@ -3,6 +3,5 @@ module "s3_bucket" {
   version = "2.8.0"
 
   bucket_prefix = "sam-harvey"
-  bucket = "my-s3-bucket"
   acl    = "private"
 }
